@@ -1,0 +1,3 @@
+---
+- name: Reload WPA Supplicant
+  command: /sbin/wpa_cli reconfigure
