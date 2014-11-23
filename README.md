@@ -20,3 +20,9 @@ Apply the playbooks and their configuration to your raspberry pi.
 ```bash
 $ ansible-playbook -s pi.yml -i hosts
 ```
+
+Apply to a specific host:
+
+```bash
+$ ansible-playbook -s pi.yml -i hosts -l wired-pi
+```
